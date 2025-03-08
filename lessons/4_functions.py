@@ -11,11 +11,11 @@ def void_function(an_argument):
     function_var = an_argument * an_argument
     print(function_var)
 
-# Variable defined inside function only exists in the function
-print(function_var) # this line should fail
-
 # Use the function the same way as print, which also has no return value (it is a void function)
-void_function(4) # this line should print 16
+void_function(4)
+
+# Variable defined inside function only exists in the function
+print(function_var) # this line fails
 
 # Making a function with a return
 def returning_function(an_argument):
