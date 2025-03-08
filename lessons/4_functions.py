@@ -43,3 +43,13 @@ def returns_multiple():
     return value_1, value_2
 
 value_a, value_b = returns_multiple()
+
+# Return values do not need to be variables
+def returns_integer():
+    return int(7)
+
+def returns_float():
+    return float(3.141259)
+
+def returns_array():
+    return [1, 1, 2, 3, 5, 8]
