@@ -1,11 +1,12 @@
 operation_count = int(input("How many operations to perform: "))
 
 for i in range(operation_count):
-    operator = input("operator for operation " + str(i + 1) + ": ")
+    operator = input("operator for operation " + str(i + 1) + ", or q to quit: ")
+    if operator == "q": break
     operand_count = 0
 
     if operator == "+" or operator == "*":
-        operand_count = float(input("operands:"))
+        operand_count = int(input("operands:"))
 
     if operator == "+":
         total = 0
