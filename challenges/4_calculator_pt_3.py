@@ -12,7 +12,7 @@ def add(operand_count):
     total = 0
     for i in range(operand_count):
         total = total + float(input("operand " + str(i + 1) + ": "))
-    print(total)
+    print("result", total)
 
 def subtract():
     value_1 = float(input("operand 1: "))
@@ -23,7 +23,7 @@ def multiply(operand_count):
     total = 1
     for i in range(operand_count):
         total = total * float(input("operand " + str(i + 1) + ": "))
-    print(total)
+    print("result", total)
 
 def divide():
     value_1 = float(input("operand 1: "))
