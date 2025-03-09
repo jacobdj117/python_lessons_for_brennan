@@ -42,3 +42,4 @@ new_lines = [
 ]
 for new_line in new_lines:
     file_2.write(new_line)
+file_2.close()
