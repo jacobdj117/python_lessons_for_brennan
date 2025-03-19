@@ -4,8 +4,5 @@ Now for some numbers
 1
 2
 3
-4
 3.14
-So I'm adding to it.
-I don't really have anything to say though, so here's some text:
-    text text text text text text text text text text text text text text text text
+4
