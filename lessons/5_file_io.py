@@ -26,10 +26,8 @@ file_2.close()
 #              characters.
 OUTPUT_FILE_PATH = "C:/Users/Jacob/code/python_lessons_for_brennan/data/5_example_output_file.txt"
 file_output = open(OUTPUT_FILE_PATH, "w")
-line_number = 1
 for i in range(10):
-    file_output.write("This is line number " + str(line_number) + "\n")
-    line_number += 1
+    file_output.write("This is line number " + str(i) + "\n")
 file_output.close()
 
 # Files can also be appended to
