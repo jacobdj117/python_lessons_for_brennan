@@ -12,7 +12,7 @@ def get_fib_array(element_count):
 def sum(fib_array):
     total = 0
     for i in fib_array:
-        total = total + i
+        total += i
     print("The sum is ", total)
 
 element_count = int(input("How far into the fibonachi series are we going? "))
